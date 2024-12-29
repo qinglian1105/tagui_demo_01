@@ -15,7 +15,6 @@ TagUI、JavaScript、Python<br><br>
 
 ### **Ⅲ. 說明**
 __1.流程步驟__ <br>
-
 Step_01: starting docker containers<br>
 TagUI開啟應用程式「Docker Desktop」，然後啟動相關服務，如：前端網頁、後端API及資料庫…等( 詳見 [專案django_demo_01](<https://github.com/qinglian1105>) )。<br>
 
@@ -47,8 +46,7 @@ __3. 執行結果畫面__ <br>
 __以上，一個Web Automation例子展現TagUI與JavaScript、Python整合。__ <br>
 
 (相似專案 [uipath_demo_01](<https://github.com/qinglian1105/uipath_demo_01>)  or  [power_automate_demo_01](<https://github.com/qinglian1105/power_automate_demo_01>) 請參考)
-
-<br><br><br>
+<br><br>
 
 ---
 

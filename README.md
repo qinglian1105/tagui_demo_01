@@ -11,8 +11,7 @@ In recent exploration of Robotic Process Automation, I experienced RPA tools inc
 TagUI、JavaScript、Python<br><br>
 
 ### **Ⅲ. Statement**
-__1. The steps of Process__ <br>
-
+__1. The steps of the process__ <br>
 Step_01: starting docker containers<br>
 That is to run services including web site, API, Database, etc. (Please refer to [django_demo_01](<https://github.com/qinglian1105>))<br><br>
 Step_02: operation on website <br>
@@ -43,8 +42,6 @@ __The above offers an example of integrating JavaScript and Python with TagUI fo
 
 Similar examples with different tools (Please refer to [uipath_demo_01](<https://github.com/qinglian1105/uipath_demo_01>)  or  [power_automate_demo_01](<https://github.com/qinglian1105/power_automate_demo_01>)) 
 <br><br>
-
-<br>
 
 ---
 
