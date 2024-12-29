@@ -19,7 +19,10 @@ The process can be roughly divided into three steps:<br>
 __Step_01:__ starting docker containers<br>
 That is to run services including web site, API, Database, etc. (Please refer to [django_demo_01](<https://github.com/qinglian1105>))<br><br>
 __Step_02:__ operation on website <br>
-Firstly, TagUI would open browser Chrome on URL, 127.0.0.1:7000, and then select item, Credit Scorecards, of side menu. In additiion, TagUI would complete the form and then submit it. After returning predict results, TagUI would save them as variables. <br><br>
+Firstly, TagUI would open browser Chrome on URL, 127.0.0.1:7000/login/ , and then key in account and password to log in. Secondly, selecting item, Credit Scorecards, of side menu, TagUI would complete the form and then submit it. After returning predict results as shown below, TagUI would save them as variables.<br>
+
+![avatar](./README_png/png_scorecards.png)
+<br><br>
 __Step_03:__ processing data with JavaScript and Python<br>
 JavaScript code would parse variables into JSON string. Then, Python code would process them for displaying on terminal and save them into CSV file.<br> 
 
@@ -38,7 +41,7 @@ However, The file "process_visual_automation.tag" is unable to do so, because it
 
 __3. Results__ <br>
 
-As mentioned above, the programming of the process has two ways for different modes.<br>
+As mentioned above, the programming of the process has two ways for different modes. The pictures as below display part of code in tag-file and result in the terminal.<br>
 
 (1)headless mode<br>
 
