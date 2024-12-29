@@ -19,7 +19,7 @@ The process can be roughly divided into three steps:<br>
 __Step_01:__ starting docker containers<br>
 That is to run services including web site, API, Database, etc. (Please refer to [django_demo_01](<https://github.com/qinglian1105>))<br><br>
 __Step_02:__ operation on website <br>
-Firstly, TagUI would open browser Chrome on URL, 127.0.0.1:7000/login/ , and then key in account and password to log in. Secondly, selecting item, Credit Scorecards, of side menu, TagUI would complete the form and then submit it. After returning predict results as shown below, TagUI would save them as variables.<br>
+Firstly, TagUI would open browser Chrome on URL, 127.0.0.1:7000/login/ , and then key in account and password to log in. Secondly, selecting item, Credit Scorecards, of side menu, TagUI would complete the form and then submit it. After returning results (bule text and gauge panel) as shown below, TagUI would save them as variables.<br>
 
 ![avatar](./README_png/png_scorecards.png)
 <br><br>
