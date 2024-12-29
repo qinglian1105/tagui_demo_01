@@ -1,4 +1,4 @@
-#### __Language:__ [[English]](README.md) [[中文]](README_CHT.md)<br><br>
+#### __其他語言版本：__ [[English]](README.md) [[中文]](README_CHT.md)<br><br>
 
 # **tagui_demo_01**
 
@@ -54,8 +54,12 @@ __以上，一個Web Automation例子展現TagUI與JavaScript、Python整合。_
 
 ### **Ⅳ. 參考**
 
-[1] [Top 5 Five Open Source RPA Frameworks to Accelerate Automation](<https://www.simplilearn.com/top-open-source-rpa-frameworks-to-accelerate-automation-article>)<br>
-[2] [AI Singapore - TagUI](<https://aisingapore.org/aiproducts/tagui/>)<br>
-[3] [aisingapore/TagUI](<https://github.com/aisingapore/TagUI>)<br>
-[4] [Introduction to Opensource RPA TagUI](<https://www.youtube.com/watch?v=1JRuSZNBBUk&list=PL2gs9_mNDDvZSCPsJu4APZR6AaDzUY7R6>)<br>
-[5] [TagUI — TagUI 6.110.0 documentation](<https://tagui.readthedocs.io/en/latest/>)<br>
+[1] [Top 5 Five Open Source RPA Frameworks to Accelerate Automation](<https://www.simplilearn.com/top-open-source-rpa-frameworks-to-accelerate-automation-article>)
+
+[2] [AI Singapore - TagUI](<https://aisingapore.org/aiproducts/tagui/>)
+
+[3] [aisingapore/TagUI](<https://github.com/aisingapore/TagUI>)
+
+[4] [Introduction to Opensource RPA TagUI](<https://www.youtube.com/watch?v=1JRuSZNBBUk&list=PL2gs9_mNDDvZSCPsJu4APZR6AaDzUY7R6>)
+
+[5] [TagUI — TagUI 6.110.0 documentation](<https://tagui.readthedocs.io/en/latest/>)

@@ -1,11 +1,11 @@
-#### __Language:__ [[English]](README.md) [[中文]](README_CHT.md)<br><br>
+#### __Read this in other languages:__ [[English]](README.md) [[中文]](README_CHT.md)<br><br>
 
 # **tagui_demo_01**
 
 ## **RPA: Implementing an example of integrating JavaScript and Python with TagUI for Web Automation**
 
 ### **Ⅰ. Purpose** 
-In the exploration of Robotic Process Automation, I experienced open source RPA, TagUI, by implementing an example of integrating JavaScript and Python with TagUI for Web Automation<br><br>
+In recent exploration of Robotic Process Automation, I experienced RPA tools including UiPath and Power Automate. However, this project is about open source RPA, TagUI. The content of this project is a demo to implement an example of integrating JavaScript and Python with TagUI for Web Automation.<br><br>
 
 ### **Ⅱ. Tools**
 TagUI、JavaScript、Python<br><br>
@@ -50,8 +50,12 @@ Similar examples with different tools (Please refer to [uipath_demo_01](<https:/
 
 ### **Ⅳ. References**
 
-[1] [Top 5 Five Open Source RPA Frameworks to Accelerate Automation](<https://www.simplilearn.com/top-open-source-rpa-frameworks-to-accelerate-automation-article>)<br>
-[2] [AI Singapore - TagUI](<https://aisingapore.org/aiproducts/tagui/>)<br>
-[3] [aisingapore/TagUI](<https://github.com/aisingapore/TagUI>)<br>
-[4] [Introduction to Opensource RPA TagUI](<https://www.youtube.com/watch?v=1JRuSZNBBUk&list=PL2gs9_mNDDvZSCPsJu4APZR6AaDzUY7R6>)<br>
-[5] [TagUI — TagUI 6.110.0 documentation](<https://tagui.readthedocs.io/en/latest/>)<br>
+[1] [Top 5 Five Open Source RPA Frameworks to Accelerate Automation](<https://www.simplilearn.com/top-open-source-rpa-frameworks-to-accelerate-automation-article>)
+
+[2] [AI Singapore - TagUI](<https://aisingapore.org/aiproducts/tagui/>)
+
+[3] [aisingapore/TagUI](<https://github.com/aisingapore/TagUI>)
+
+[4] [Introduction to Opensource RPA TagUI](<https://www.youtube.com/watch?v=1JRuSZNBBUk&list=PL2gs9_mNDDvZSCPsJu4APZR6AaDzUY7R6>)
+
+[5] [TagUI — TagUI 6.110.0 documentation](<https://tagui.readthedocs.io/en/latest/>)
