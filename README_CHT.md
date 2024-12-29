@@ -1,4 +1,4 @@
-#### __其他語言版本：__ [[English]](README.md) [[中文]](README_CHT.md)<br><br>
+#### __其他語言版本：__ [[English]](README.md)<br><br>
 
 # **tagui_demo_01**
 
