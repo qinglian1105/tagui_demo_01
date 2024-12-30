@@ -5,7 +5,7 @@
 ## **RPA: Implementing an example of integrating JavaScript and Python with TagUI for Web Automation**
 
 ### **Ⅰ. Purpose** 
-In recent exploration of Robotic Process Automation, I experienced RPA tools including UiPath and Power Automate. However, this project is about open source RPA, TagUI. The content of this project is a demo to implement an example of integrating JavaScript and Python with TagUI for Web Automation.<br><br>
+In recent exploration of Robotic Process Automation, I experienced several RPA tools including UiPath and Power Automate. Unlike commercial software, TagUI is an open-source Robotic Process Automation (RPA) tool. The content of this project is a demo to implement an example of integrating JavaScript and Python with TagUI for Web Automation.<br><br>
 
 ### **Ⅱ. Tools**
 TagUI、JavaScript、Python<br><br>
@@ -37,7 +37,7 @@ The file "process_headless.tag" can be executed in headless mode by the command 
 tagui file_name.tag -h
 ```
 
-However, The file "process_visual_automation.tag" is unable to do so, because it runs in the mode of visual automation, scanning the screen with png files (Please refer to the folder - image).<br><br> 
+However, The file "process_visual_automation.tag" is unable to do so, because it runs in the mode of visual automation, using OCR (optical character recognition) to scan UI element on the screen with png files (Please refer to the folder - image).<br><br> 
 
 __3. Results__ <br>
 
