@@ -11,8 +11,6 @@
 ### **Ⅱ. 主要工具**
 TagUI、JavaScript、Python<br><br>
 
-
-
 ### **Ⅲ. 說明**
 __1.流程步驟__ <br>
 __Step_01:__ starting docker containers<br>
@@ -33,7 +31,7 @@ __2. 關於tag檔案__ <br>
 tagui file_name.tag -h
 ```
 
-然而，後者無法如此，因為它以visual automation模式執行，即使用資料夾image的png檔作螢幕掃描處理。<br><br> 
+然而，後者無法如此，因為它以visual automation模式執行，即使用 光學字元辨識(Optical Character Recognition, OCR)方式以事前準備好的圖片檔案(詳見資料夾image的png檔)作螢幕掃描處理。<br><br> 
 __3. 執行結果畫面__ <br>
 
 如同前述，流程的程式碼依照不同模式被寫成二種。下方圖片各自展示不同模式的tag檔的部份程式碼及執行結果顯示下方終端機視窗。<br>
