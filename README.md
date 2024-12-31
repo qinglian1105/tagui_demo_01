@@ -16,28 +16,42 @@ __1. The steps of the process__ <br>
 
 The process can be roughly divided into three steps:<br>
 
-__Step_01:__ starting docker containers<br>
+__Step_01:__ Starting docker containers<br>
 That is to run services including web site, API, Database, etc. (Please refer to [django_demo_01](<https://github.com/qinglian1105>))<br><br>
-__Step_02:__ operation on website <br>
-Firstly, TagUI would open browser Chrome on URL, 127.0.0.1:7000/login/ , and then key in account and password to log in. Secondly, selecting item, Credit Scorecards, of side menu, TagUI would complete the form and then submit it. After returning results (bule text and gauge panel) as shown below, TagUI would save them as variables.<br>
+__Step_02:__ Operation on website <br>
+Firstly, TagUI would open browser Chrome on URL, 127.0.0.1:7000/login/, and then key in account and password to log in. Secondly, selecting item, Credit Scorecards, of side menu, TagUI would complete the form and then submit it. After returning results (bule text and gauge panel) as shown below, TagUI would save them as variables.<br>
 
 ![avatar](./README_png/png_scorecards.png)
 <br><br>
-__Step_03:__ processing data with JavaScript and Python<br>
+
+__Step_03:__ Processing data with JavaScript and Python<br>
 JavaScript code would parse variables into JSON string. Then, Python code would process them for displaying on terminal and save them into CSV file.<br> 
 
-Concerning to the detail of the above steps, please refer to files: process_headless.tag, process_visual_automation.tag, and report.csv.<br><br> 
+Concerning to the detail of the above steps, please refer to files: <br>
+\./mode_headless/\*.tag <br> 
+\./mode_visual_automation/\*.tag <br>
+\./mode_\*/outputs/report.csv<br>
+ 
+<br> 
 
 __2. About tag files__ <br>
 
-As you can see in this project, there are two tag files, namely "process_headless.tag" and "process_visual_automation.tag".
-The file "process_headless.tag" can be executed in headless mode by the command with parameter "-h" or "-headless". For example:
+As you can see in this project, there are two folders, namely "mode_headless" and "mode_visual_automation". Each of them has its own
+sub-folders, tag-files, csv-file, and js-file. 
+The folder "mode_headless" can be executed in headless mode by the command with parameter "-h" or "-headless". For example:
 
 ```bash
 tagui file_name.tag -h
 ```
 
-However, The file "process_visual_automation.tag" is unable to do so, because it runs in the mode of visual automation, using OCR (optical character recognition) to scan UI element on the screen with png files (Please refer to the folder - image).<br><br> 
+However, The folder "mode_visual_automation" is unable to do so, because it runs in the mode of visual automation, using OCR (optical character recognition) to scan UI element on the screen with png files (Please refer to it's sub-folder, image).<br>
+Fundamentally, the tag file execution sequence is: <br>
+sub_main.tag →<br>
+sub01_startContainer.tag →<br>
+sub02_jsParse.tag →<br>
+sub03_operateWebsite.tag →<br>
+sub04_pythonProcessing.tag
+<br><br> 
 
 __3. Results__ <br>
 
@@ -51,7 +65,7 @@ As mentioned above, the programming of the process has two ways for different mo
 
 ![avatar](./README_png/png_result_va.png)<br><br>
 
-As you can see from pictures, different modes produce the the same result.<br>
+As you can see from pictures, different modes produce the the same result. Obviously, in the speed of execution, "headless" mode performs faster than "visual automation" mode.<br>
 
 __The above offers an example of integrating JavaScript and Python with TagUI for Web Automation.__ <br>
 
