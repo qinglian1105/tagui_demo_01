@@ -5,7 +5,7 @@
 ## **RPA: Implementing an example of integrating JavaScript and Python with TagUI for Web Automation**
 
 ### **Ⅰ. Purpose** 
-In recent exploration of Robotic Process Automation, I experienced several RPA tools including UiPath and Power Automate. Unlike commercial software, TagUI is an open-source Robotic Process Automation (RPA) tool. The content of this project is a demo to implement an example of integrating JavaScript and Python with TagUI for Web Automation.<br><br>
+In recent exploration of Robotic Process Automation (RPA), I experienced several RPA tools including UiPath and Power Automate. Unlike commercial software, TagUI is an open-source RPA tool. The content of this project is a demo to implement an example of integrating JavaScript and Python with TagUI for Web Automation.<br><br>
 
 ### **Ⅱ. Tools**
 TagUI、JavaScript、Python<br><br>
@@ -25,7 +25,7 @@ Firstly, TagUI would open browser Chrome on URL, 127.0.0.1:7000/login/, and then
 <br><br>
 
 __Step_03:__ Processing data with JavaScript and Python<br>
-JavaScript code would parse variables into JSON string. Then, Python code would process them for displaying on terminal and save them into CSV file.<br> 
+TagUI would make JavaScript code to parse variables into JSON string. Then, running Python code would process them for displaying on terminal and save them into CSV file.<br> 
 
 Concerning to the detail of the above steps, please refer to files: <br>
 \./mode_headless/\*.tag <br> 
@@ -38,14 +38,14 @@ __2. About tag files__ <br>
 
 As you can see in this project, there are two folders, namely "mode_headless" and "mode_visual_automation". Each of them has its own
 sub-folders, tag-files, csv-file, and js-file. 
-The folder "mode_headless" can be executed in headless mode by the command with parameter "-h" or "-headless". For example:
+The tag-files in the folder "mode_headless" can be executed in headless mode by the command with parameter "-h" or "-headless". For example:
 
 ```bash
 tagui file_name.tag -h
 ```
 
-However, The folder "mode_visual_automation" is unable to do so, because it runs in the mode of visual automation, using OCR (optical character recognition) to scan UI element on the screen with png files (Please refer to it's sub-folder, image).<br>
-Fundamentally, the tag file execution sequence is: <br>
+However, the tag-files in the folder "mode_visual_automation" are unable to do so, because execution mode is visual automation, using OCR (optical character recognition) to scan UI element on the screen with png files (Please refer to sub-folder, image).<br>
+Fundamentally, the execution sequence of tag-files is: <br>
 sub_main.tag →<br>
 sub01_startContainer.tag →<br>
 sub02_jsParse.tag →<br>

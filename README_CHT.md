@@ -18,14 +18,14 @@ __1.流程步驟__ <br>
 流程可粗略地分為三步驟：<br>
 
 __Step_01:__ Starting docker containers<br>
-TagUI開啟應用程式「Docker Desktop」，然後啟動相關服務，如：前端網頁、後端API及資料庫…等( 詳見 [專案django_demo_01](<https://github.com/qinglian1105>) )。<br>
+TagUI開啟應用程式「Docker Desktop」，然後啟動相關服務，如：前端網頁、後端API及資料庫…等( 詳見專案 [django_demo_01](<https://github.com/qinglian1105>) )。<br>
 
 __Step_02:__ Operation on website <br>
-TagUI開啟瀏覽器(Chrome)，到一個網站( 127.0.0.1:7000/login/ ，如上述專案 ) ，接著輸入帳密登入進入首頁後，於左側side menu點選「信用評分預測(Credit Scorecards)」選單，即進入目標頁面，填完Form的 7 個變數資料，點擊按鍵「Predict Score」後，將於下方以藍色文字及儀表盤呈現預測結果(分數、評級)，如下圖所示。 <br>
+TagUI開啟瀏覽器(Chrome)，到一個網站( 127.0.0.1:7000/login/ ，如上述專案 ) ，接著輸入帳號及密碼登入，進入首頁後，於左側side menu點選「信用評分預測(Credit Scorecards)」選單，即進入目標頁面，填完Form的 7 個變數資料，點擊按鍵「Predict Score」後，將於下方以藍色文字及儀表盤呈現預測結果(分數、評級)，如下圖所示。 <br>
 
 ![avatar](./README_png/png_scorecards.png)<br><br>
 __Step_03:__ Processing data with JavaScript and Python<br>
-由JavaScript程式擷取預測結果，Python程式將編輯內容及寫入CSV檔，然後返回予終端機(Terminal)顯示，完成整個Process自動化。<br>
+TagUI將讓JavaScript程式處理預測結果，接著由Python程式進行編輯內容及寫入CSV檔，然後返回予終端機(Terminal)顯示，完成整個流程自動化。<br>
 
 以上關於細節內容詳見檔案： <br>
 \./mode_headless/\*.tag <br> 
@@ -52,7 +52,7 @@ sub04_pythonProcessing.tag。
 <br><br> 
 __3. 執行結果畫面__ <br>
 
-如同前述，流程的程式碼依照不同模式被寫成二種。下方圖片各自展示不同模式的tag檔的部份程式碼及執行結果顯示下方終端機視窗。<br>
+如同前述，流程的程式碼依照不同模式被寫成二種。下方圖片各自展示不同模式之下，tag檔的部份程式碼及執行結果顯示於下方終端機視窗。<br>
 
 (1)headless模式<br>
 
@@ -62,7 +62,7 @@ __3. 執行結果畫面__ <br>
 
 ![avatar](./README_png/png_result_va.png)<br><br>
 
-如上二圖所示，不同模式，執行結果相同。執行時間當然headless模式較快。<br>
+如上二圖所示，不同模式，執行結果相同。在執行時間方面，很明顯是headless模式較快。<br>
 
 __以上，一個Web Automation例子展現TagUI與JavaScript、Python整合。__ <br>
 
