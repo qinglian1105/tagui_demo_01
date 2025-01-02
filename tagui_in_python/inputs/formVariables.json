@@ -1,0 +1,11 @@
+{
+    "account":"your_username",
+    "pwd":"your_password",
+    "annual_inc_bin": "180000",
+    "loan_amnt_bin": "20000",
+    "int_rate_bin": "5.88",
+    "purpose": "major_purchase",
+    "grade": "B",
+    "home_ownership": "OWN",
+    "pub_rec_bankruptcies": "N"
+}
