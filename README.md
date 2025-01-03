@@ -29,7 +29,9 @@ TagUI would make JavaScript code to parse variables into JSON string. Then, runn
 
 Concerning to the detail of the above steps, please refer to files: <br>
 \./mode_headless/\*.tag <br> 
+\./mode_headless/tagui_local.* <br> 
 \./mode_visual_automation/\*.tag <br>
+\./mode_visual_automation/tagui_local.* <br>
 \./mode_\*/outputs/report.csv<br>
  
 <br> 
@@ -38,7 +40,7 @@ __2. About files__ <br>
 
 (1)__tag-files__ <br>
 
-As you can see in this project, there are several folders. "mode_headless" and "mode_visual_automation" are mainly folders for running tag-files. Each of them has its own
+As you can see in this project, there are several folders. Two folders, "mode_headless" and "mode_visual_automation", are mainly for running tag-files. Each of them has its own
 sub-folders, tag-files, csv-file, and js-file. 
 The tag-files in the folder "mode_headless" can be executed in headless mode by the command with parameter "-h" or "-headless". For example:
 
@@ -46,7 +48,7 @@ The tag-files in the folder "mode_headless" can be executed in headless mode by 
 tagui file_name.tag -h
 ```
 
-However, the tag-files in the folder "mode_visual_automation" are unable to do so, because execution mode is visual automation, using OCR (optical character recognition) to scan UI element on the screen with png files (Please refer to sub-folder, image).<br>
+However, the tag-files in the folder "mode_visual_automation" are unable to do so, because execution mode is visual automation, using OCR (optical character recognition) to scan UI element on the screen with PNG files (Please refer to sub-folder, image).<br>
 Fundamentally, the execution sequence of tag-files is: <br>
 sub_main.tag →<br>
 sub01_startContainer.tag →<br>
@@ -54,9 +56,16 @@ sub02_jsParse.tag →<br>
 sub03_operateWebsite.tag →<br>
 sub04_pythonProcessing.tag <br>
 
+Therefore, just execute the command as below for running tag-files in the folder, namely running all steps of the process.<br>
+```bash
+tagui sub_main.tag
+```
+<br>
+
+
 (2)__TagUI in python__ <br>
 
-The folder "tagui_in_python" has one python-files and three sub-folders. By installing the package "rpa", it can directly use TagUI in Python code, different from the above tag-files only allowing other programming, like Python or JavaScript, to run in parts of tag-files. In addition, as we know that Python has a rich ecosystem of third-party modules and libraries that extend its functionality for various tasks. Therefore, if you are good at Python, you will find it very convenient to use TagUI. Please refer to the file "py_tagui.py".
+The folder "tagui_in_python" has one python-file and three sub-folders. By installing the package "rpa" ( Please refer to [RPA for Python](<https://pypi.org/project/rpa/>) ), it can directly use TagUI in Python code, different from the above description that tag-file only allows other programming languages, like Python or JavaScript, to run in parts of tag-file. In addition, as we know that Python has a rich ecosystem of third-party modules and libraries that extend its functionality for various tasks. Therefore, if you are good at Python, you will find it very convenient to use TagUI. Please refer to the file "[py_tagui.py](./tagui_in_python/py_tagui.py)".
 <br><br> 
 
 __3. Results__ <br>
