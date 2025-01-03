@@ -29,7 +29,9 @@ TagUI讓JavaScript程式先處理預測結果，接著由Python程式進行編�
 
 以上關於細節內容詳見檔案： <br>
 \./mode_headless/\*.tag <br> 
+\./mode_headless/tagui_local.* <br> 
 \./mode_visual_automation/\*.tag <br>
+\./mode_visual_automation/tagui_local.* <br>
 \./mode_\*/outputs/report.csv
 <br>
 <br>
@@ -43,18 +45,25 @@ __2. 關於檔案__ <br>
 tagui file_name.tag -h
 ```
 
-然而，後者無法如此，因為它以visual automation模式執行，即使用 光學字元辨識(Optical Character Recognition, OCR)方式以事前準備好的圖片檔案(詳見其資料夾image的png檔)作螢幕掃描處理。<br>
+然而，後者無法如此，因為它以visual automation模式執行，即使用 光學字元辨識(Optical Character Recognition, OCR)方式以事前準備好的圖片檔案(詳見其資料夾image的PNG檔)作螢幕掃描處理。<br>
 
 基本上，tag檔的執行順序為：<br>
 sub_main.tag →<br>
 sub01_startContainer.tag →<br>
 sub02_jsParse.tag →<br>
 sub03_operateWebsite.tag →<br>
-sub04_pythonProcessing.tag。
+sub04_pythonProcessing.tag<br>
+
+因此，只需在terminal執行以下命令，便可執行資料夾的tag檔(即該流程的所有步驟)。<br>
+```bash
+tagui sub_main.tag
+```
+<br>
+
 
 (2)__Python檔__ <br>
 
-資料夾「tagui_in_python」有一個Python檔及幾個子資料夾。藉由pip安裝套件「rpa」，就可以在Python程式中直接地使用TagUI，不同於上述只允許其他程式語言，如：Python或JavaScript，在tag檔中部份區塊使用。另外，眾所周知，Python擁有豐富的第三方模組和函式庫生態系統，可擴展其功能以執行各種任務。如果擅長Python，將覺得非常方便地使用TagUI。詳細內容請參考Python程式檔「py_tagui.py」。
+資料夾「tagui_in_python」有一個Python檔及幾個子資料夾。藉由pip安裝套件「rpa」( 詳見 [RPA for Python](<https://pypi.org/project/rpa/>) )，就可以在Python程式中直接地使用TagUI，不同於上述只允許其他程式語言，如：Python或JavaScript，在tag檔中部份區塊使用。另外，眾所周知，Python擁有豐富的第三方模組和函式庫生態系統，可擴展其功能以執行各種任務。如果擅長Python，將覺得非常方便地使用TagUI。詳細內容請參考Python程式檔「[py_tagui.py](./tagui_in_python/py_tagui.py)」。
 
 <br><br> 
 __3. 執行結果畫面__ <br>
