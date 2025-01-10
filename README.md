@@ -88,11 +88,13 @@ By tag-files<br>
 By Python<br>
 ![avatar](./README_png/py_res_va.png)<br><br>
 
-As you can see from pictures, different modes produce the the same result. Obviously, in the speed of execution, "headless" mode performs faster than "visual automation" mode.<br>
+As you can see from pictures, different modes produce the the same result. Obviously, in the speed of execution, "headless" mode performs faster than "visual automation" mode.<br><br>
 
-__The above offers an example of integrating JavaScript and Python with TagUI for Web Automation.<br> Besides, another example, all executed by using Python, is also provided.__ <br>
+__The above offers an example of integrating JavaScript and Python with TagUI for Web Automation. Besides, another example, executed only by Python script, is also provided.__ <br>
 
-Similar examples with different tools (Please refer to [uipath_demo_01](<https://github.com/qinglian1105/uipath_demo_01>)  or  [power_automate_demo_01](<https://github.com/qinglian1105/power_automate_demo_01>)) 
+
+Similar examples with different tools ( Please refer to [uipath_demo_01](<https://github.com/qinglian1105/uipath_demo_01>)  or  [power_automate_demo_01](<https://github.com/qinglian1105/power_automate_demo_01>) ) <br>
+The example of periodical web crawling that relies on TagUI ( Please refer to [tagui_demo_02](<https://github.com/qinglian1105/tagui_demo_02>) )
 <br><br>
 
 ---
