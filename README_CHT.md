@@ -86,11 +86,12 @@ tag-files執行結果<br>
 Python執行結果<br>
 ![avatar](./README_png/py_res_va.png)<br><br>
 
-如上二組圖所示，不同模式，執行結果相同。在執行時間方面，很明顯是headless模式較快。<br>
+如上二組圖所示，不同模式，執行結果相同。在執行時間方面，很明顯是headless模式較快。<br><br>
 
 __以上，一個Web Automation例子展現TagUI與JavaScript、Python整合。<br>除此之外，也提供另一個全部使用Python執行的例子。__ <br>
 
-(相似專案 [uipath_demo_01](<https://github.com/qinglian1105/uipath_demo_01>)  or  [power_automate_demo_01](<https://github.com/qinglian1105/power_automate_demo_01>) 請參考)
+( 使用不同工具之相似專案： [uipath_demo_01](<https://github.com/qinglian1105/uipath_demo_01>)  、  [power_automate_demo_01](<https://github.com/qinglian1105/power_automate_demo_01>) 請參考 或 <br>
+依賴TagUI定期抓取網頁資料之專案： [tagui_demo_02](<https://github.com/qinglian1105/tagui_demo_02>) 請參考 )
 <br><br>
 
 ---
